@@ -1,7 +1,7 @@
 NAME := my-echo
 REPOSITORY := aratake829/$(NAME)
 TAG := 0.2
-GOOS := linux
+GOOS := windows
 GOARCH := amd64
 
 .PHONY: build test image-build image-push clean
